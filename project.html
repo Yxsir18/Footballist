@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Football Website</title>
+	<link rel="stylesheet" href="football.css">
+    <link rel="icon" type="image/x-icon" href="football.png">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="pro">Home</a></li>
+				<li><a href="teams.html">Teams</a></li>
+				<li><a href="players.html">Players</a></li>
+                <li><a href="fixtures.html">Fixtures</a></li>
+                <li><a href="result.html">Results</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero">
+		<h1>Welcome to the World of Football</h1>
+		<p>Get the latest news and update and info about your team</p>
+	</section>
+	<section id="featured">
+		<div class="card">
+			<img src="realmadrid.webp" alt="Team Image">
+			<h2>Real Madrid</h2>
+			<p>Founded: 1902</p>
+			<p>Stadium: Santiago Bernabeu</p>
+			<a href="https://en.wikipedia.org/wiki/Real_Madrid_CF">Learn More</a>
+		</div>
+		<div class="card">
+			<img src="barca.png" alt="Team Image">
+			<h2>Barcelona</h2>
+			<p>Founded: 1899</p>
+			<p>Stadium: Camp Nou</p>
+			<a href="https://en.wikipedia.org/wiki/FC_Barcelona">Learn More</a>
+		</div>
+		<div class="card">
+			<img src="liverpool.png" alt="Team Image">
+			<h2>Liverpool</h2>
+			<p>Founded: 1892</p>
+			<p>Stadium: Anfield</p>
+			<a href="https://en.wikipedia.org/wiki/Liverpool_F.C.">Learn More</a>
+		</div>
+	</section>
+    <footer>
+        <p>&copy;All Copyright Reserved</p>
+
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <form action="send_email.php" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+          
+              <button type="submit" class="cta-button" name="submit">Send</button>
+            </form>
+          </section>
+          <style>
+            .contact-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.contact-section form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.contact-section form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact-section form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-section form button:hover {
+  background-color: #555;
+}
+
+          </style>
+          
+    </footer>
+</body>
+</html>

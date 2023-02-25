@@ -1,0 +1,38 @@
+.fixtures-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fixtures-section h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .fixtures-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .fixtures-section th,
+  .fixtures-section td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .fixtures-section th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .fixtures-section tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

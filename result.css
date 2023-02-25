@@ -1,0 +1,42 @@
+.results-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-section h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .results-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .results-section th,
+  .results-section td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .results-section th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .results-section tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .results-section td:nth-child(3) {
+    font-weight: bold;
+  }
+  
